@@ -1,0 +1,10 @@
+bigquery_profile:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: n8nauth-465703
+      dataset: crypto_dataset
+      location: US
+      threads: 1
