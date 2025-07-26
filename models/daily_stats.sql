@@ -1,10 +1,9 @@
 SELECT
   snapshot_date,
-  coin_id,
-  symbol,
-  AVG(price_usd) AS avg_price_usd,
-  SUM(volume_24h) AS total_volume_24h,
-  MAX(high_24h) AS max_high_24h,
-  MIN(low_24h) AS min_low_24h
+  COUNT(DISTINCT coin_id) AS total_coins,
+  AVG(price_usd) AS avg_price,
+  AVG(volume_24h) AS avg_volume,
+  SUM(market_cap_usd) AS total_market_cap
 FROM {{ ref('cleaned_crypto') }}
-GROUP BY snapshot_date, coin_id, symbol
+GROUP BY snapshot_date
+ORDER BY snapshot_date DESC

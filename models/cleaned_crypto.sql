@@ -1,4 +1,4 @@
-\SELECT
+SELECT
   coin_id,
   symbol,
   price_usd,
