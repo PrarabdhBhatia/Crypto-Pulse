@@ -22,9 +22,7 @@ Hosted on BigQuery with OpenAI integration for the chatbot interface
 
 Workflow Orchestration:	n8n
 
-<img width="1270" height="460" alt="Screenshot 2025-07-25 at 6 42 02 PM" src="https://github.com/user-attachments/assets/a7991c31-03a1-481b-8235-b1261cb03b01" />
-
-
+<img width="904" height="241" alt="image" src="https://github.com/user-attachments/assets/5059f3b8-0549-47c6-8428-685c0fbd0031" />
 
 Data Storage & Querying:	Google BigQuery
 
