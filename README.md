@@ -22,9 +22,12 @@ Hosted on BigQuery with OpenAI integration for the chatbot interface
 
 Workflow Orchestration:	n8n
 
+<img width="1271" height="460" alt="image" src="https://github.com/user-attachments/assets/e77f9a46-4fd5-46a9-9d04-08229fa2a078" />
+
+
 Data Storage & Querying:	Google BigQuery
 
-Data Transformation:	dbt (Data Build Tool)
+Data Transformation:	dbt  (The SQL models are stored in the models folder)
 
 LLM Chat Interface:	OpenAI API 
 
