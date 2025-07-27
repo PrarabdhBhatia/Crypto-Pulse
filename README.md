@@ -20,15 +20,15 @@ Hosted on BigQuery with OpenAI integration for the chatbot interface
 
 ## Component Tech Stack
 
-Workflow Orchestration:	n8n
+**Workflow Orchestration:**	n8n
 
 <img width="904" height="241" alt="image" src="https://github.com/user-attachments/assets/5059f3b8-0549-47c6-8428-685c0fbd0031" />
 
-Data Storage & Querying:	Google BigQuery
+**Data Storage & Querying:**	Google BigQuery
 
-Data Transformation:	dbt  (The SQL models are stored in the models folder)
+**Data Transformation:** dbt  (The SQL models are stored in the models folder)
 
-LLM Chat Interface:	OpenAI API 
+**LLM Chat Interface:**	OpenAI API 
 
-Data Source:	CoinGecko API
+**Data Source:**	CoinGecko API
 
